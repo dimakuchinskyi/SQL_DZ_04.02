@@ -35,7 +35,6 @@ create table Examinations
 use Hospital;
 go
 
--- Drop existing tables if they exist
 if object_id('Departaments', 'U') is not null drop table Departaments;
 if object_id('Diseases', 'U') is not null drop table Diseases;
 if object_id('Doctors', 'U') is not null drop table Doctors;
